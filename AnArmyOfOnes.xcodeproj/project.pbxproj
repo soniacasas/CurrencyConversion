@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		DFE47F201B1B6A0900F8BE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE47F1F1B1B6A0900F8BE84 /* main.m */; };
 		DFE47F231B1B6A0900F8BE84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE47F221B1B6A0900F8BE84 /* AppDelegate.m */; };
-		DFE47F261B1B6A0900F8BE84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE47F251B1B6A0900F8BE84 /* ViewController.m */; };
 		DFE47F291B1B6A0900F8BE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE47F271B1B6A0900F8BE84 /* Main.storyboard */; };
 		DFE47F2B1B1B6A0900F8BE84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE47F2A1B1B6A0900F8BE84 /* Images.xcassets */; };
 		DFE47F2E1B1B6A0900F8BE84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE47F2C1B1B6A0900F8BE84 /* LaunchScreen.xib */; };
-		DFE47F3A1B1B6A0900F8BE84 /* AnArmyOfOnesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE47F391B1B6A0900F8BE84 /* AnArmyOfOnesTests.m */; };
+		DFE47F491B1D3A5D00F8BE84 /* AAOOCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE47F481B1D3A5D00F8BE84 /* AAOOCurrency.m */; };
+		DFE47F4C1B1D3EA500F8BE84 /* AAOOCurrencyList.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE47F4B1B1D3EA500F8BE84 /* AAOOCurrencyList.m */; };
+		DFE47F4F1B1D42B900F8BE84 /* AAOOConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE47F4E1B1D42B900F8BE84 /* AAOOConverterViewController.m */; };
+		DFEE245A1B1E9CBB0020BF7B /* AAOOTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE24591B1E9CBB0020BF7B /* AAOOTools.m */; };
+		DFEE245C1B1E9E750020BF7B /* AAOOToolsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE245B1B1E9E750020BF7B /* AAOOToolsTest.m */; };
+		DFEE245E1B1E9EAD0020BF7B /* AAOOCurrencyListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE245D1B1E9EAD0020BF7B /* AAOOCurrencyListTests.m */; };
+		DFEE24611B1EA5D00020BF7B /* AAOOBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE24601B1EA5D00020BF7B /* AAOOBarChartViewController.m */; };
+		DFEE24651B1EA7D10020BF7B /* JBBarChartFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE24641B1EA7D10020BF7B /* JBBarChartFooterView.m */; };
+		DFEE24681B1EA7F70020BF7B /* JBChartHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE24671B1EA7F70020BF7B /* JBChartHeaderView.m */; };
+		DFEE246B1B1EA8350020BF7B /* JBChartInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE246A1B1EA8350020BF7B /* JBChartInformationView.m */; };
+		DFEE246E1B1F2FE00020BF7B /* JBBaseChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE246D1B1F2FE00020BF7B /* JBBaseChartViewController.m */; };
+		DFEE24731B1F30560020BF7B /* JBChartTooltipTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE24701B1F30560020BF7B /* JBChartTooltipTipView.m */; };
+		DFEE24741B1F30560020BF7B /* JBChartTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEE24721B1F30560020BF7B /* JBChartTooltipView.m */; };
+		E156327DCE816F097458E6D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A9F39C4B237957ED343E79 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +39,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DD83BC3189AAEEFE5605D8F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		85371B2FF8A8F6BD85719DA2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A9F39C4B237957ED343E79 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE47F1A1B1B6A0900F8BE84 /* AnArmyOfOnes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnArmyOfOnes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE47F1E1B1B6A0900F8BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFE47F1F1B1B6A0900F8BE84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFE47F211B1B6A0900F8BE84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFE47F221B1B6A0900F8BE84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DFE47F241B1B6A0900F8BE84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DFE47F251B1B6A0900F8BE84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DFE47F281B1B6A0900F8BE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFE47F2A1B1B6A0900F8BE84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DFE47F2D1B1B6A0900F8BE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DFE47F331B1B6A0900F8BE84 /* AnArmyOfOnesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnArmyOfOnesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE47F381B1B6A0900F8BE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFE47F391B1B6A0900F8BE84 /* AnArmyOfOnesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnArmyOfOnesTests.m; sourceTree = "<group>"; };
+		DFE47F471B1D3A5D00F8BE84 /* AAOOCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOOCurrency.h; sourceTree = "<group>"; };
+		DFE47F481B1D3A5D00F8BE84 /* AAOOCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOOCurrency.m; sourceTree = "<group>"; };
+		DFE47F4A1B1D3EA500F8BE84 /* AAOOCurrencyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOOCurrencyList.h; sourceTree = "<group>"; };
+		DFE47F4B1B1D3EA500F8BE84 /* AAOOCurrencyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOOCurrencyList.m; sourceTree = "<group>"; };
+		DFE47F4D1B1D42B900F8BE84 /* AAOOConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOOConverterViewController.h; sourceTree = "<group>"; };
+		DFE47F4E1B1D42B900F8BE84 /* AAOOConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOOConverterViewController.m; sourceTree = "<group>"; };
+		DFEE24581B1E9CBB0020BF7B /* AAOOTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOOTools.h; sourceTree = "<group>"; };
+		DFEE24591B1E9CBB0020BF7B /* AAOOTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOOTools.m; sourceTree = "<group>"; };
+		DFEE245B1B1E9E750020BF7B /* AAOOToolsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOOToolsTest.m; sourceTree = "<group>"; };
+		DFEE245D1B1E9EAD0020BF7B /* AAOOCurrencyListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOOCurrencyListTests.m; sourceTree = "<group>"; };
+		DFEE245F1B1EA5D00020BF7B /* AAOOBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOOBarChartViewController.h; sourceTree = "<group>"; };
+		DFEE24601B1EA5D00020BF7B /* AAOOBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOOBarChartViewController.m; sourceTree = "<group>"; };
+		DFEE24631B1EA7D10020BF7B /* JBBarChartFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartFooterView.h; sourceTree = "<group>"; };
+		DFEE24641B1EA7D10020BF7B /* JBBarChartFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartFooterView.m; sourceTree = "<group>"; };
+		DFEE24661B1EA7F70020BF7B /* JBChartHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartHeaderView.h; sourceTree = "<group>"; };
+		DFEE24671B1EA7F70020BF7B /* JBChartHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartHeaderView.m; sourceTree = "<group>"; };
+		DFEE24691B1EA8350020BF7B /* JBChartInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartInformationView.h; sourceTree = "<group>"; };
+		DFEE246A1B1EA8350020BF7B /* JBChartInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartInformationView.m; sourceTree = "<group>"; };
+		DFEE246C1B1F2FE00020BF7B /* JBBaseChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBaseChartViewController.h; sourceTree = "<group>"; };
+		DFEE246D1B1F2FE00020BF7B /* JBBaseChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBaseChartViewController.m; sourceTree = "<group>"; };
+		DFEE246F1B1F30560020BF7B /* JBChartTooltipTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartTooltipTipView.h; sourceTree = "<group>"; };
+		DFEE24701B1F30560020BF7B /* JBChartTooltipTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartTooltipTipView.m; sourceTree = "<group>"; };
+		DFEE24711B1F30560020BF7B /* JBChartTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartTooltipView.h; sourceTree = "<group>"; };
+		DFEE24721B1F30560020BF7B /* JBChartTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartTooltipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E156327DCE816F097458E6D3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +97,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DCCD010B112E0F1030E2426 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85371B2FF8A8F6BD85719DA2 /* Pods.debug.xcconfig */,
+				0DD83BC3189AAEEFE5605D8F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A187A5C416ABD33E417D9DA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A9F39C4B237957ED343E79 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFE47F111B1B6A0900F8BE84 = {
 			isa = PBXGroup;
 			children = (
 				DFE47F1C1B1B6A0900F8BE84 /* AnArmyOfOnes */,
 				DFE47F361B1B6A0900F8BE84 /* AnArmyOfOnesTests */,
 				DFE47F1B1B1B6A0900F8BE84 /* Products */,
+				3DCCD010B112E0F1030E2426 /* Pods */,
+				A187A5C416ABD33E417D9DA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +137,12 @@
 		DFE47F1C1B1B6A0900F8BE84 /* AnArmyOfOnes */ = {
 			isa = PBXGroup;
 			children = (
+				DFE47F431B1B74A600F8BE84 /* Model */,
+				DFE47F461B1B74C400F8BE84 /* Controller */,
+				DFE47F451B1B74BE00F8BE84 /* View */,
 				DFE47F211B1B6A0900F8BE84 /* AppDelegate.h */,
 				DFE47F221B1B6A0900F8BE84 /* AppDelegate.m */,
-				DFE47F241B1B6A0900F8BE84 /* ViewController.h */,
-				DFE47F251B1B6A0900F8BE84 /* ViewController.m */,
-				DFE47F271B1B6A0900F8BE84 /* Main.storyboard */,
 				DFE47F2A1B1B6A0900F8BE84 /* Images.xcassets */,
-				DFE47F2C1B1B6A0900F8BE84 /* LaunchScreen.xib */,
 				DFE47F1D1B1B6A0900F8BE84 /* Supporting Files */,
 			);
 			path = AnArmyOfOnes;
@@ -105,7 +160,8 @@
 		DFE47F361B1B6A0900F8BE84 /* AnArmyOfOnesTests */ = {
 			isa = PBXGroup;
 			children = (
-				DFE47F391B1B6A0900F8BE84 /* AnArmyOfOnesTests.m */,
+				DFEE245B1B1E9E750020BF7B /* AAOOToolsTest.m */,
+				DFEE245D1B1E9EAD0020BF7B /* AAOOCurrencyListTests.m */,
 				DFE47F371B1B6A0900F8BE84 /* Supporting Files */,
 			);
 			path = AnArmyOfOnesTests;
@@ -119,6 +175,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DFE47F431B1B74A600F8BE84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFE47F471B1D3A5D00F8BE84 /* AAOOCurrency.h */,
+				DFE47F481B1D3A5D00F8BE84 /* AAOOCurrency.m */,
+				DFE47F4A1B1D3EA500F8BE84 /* AAOOCurrencyList.h */,
+				DFE47F4B1B1D3EA500F8BE84 /* AAOOCurrencyList.m */,
+				DFEE24581B1E9CBB0020BF7B /* AAOOTools.h */,
+				DFEE24591B1E9CBB0020BF7B /* AAOOTools.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DFE47F451B1B74BE00F8BE84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE24621B1EA79A0020BF7B /* ChartView */,
+				DFE47F271B1B6A0900F8BE84 /* Main.storyboard */,
+				DFE47F2C1B1B6A0900F8BE84 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DFE47F461B1B74C400F8BE84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFE47F4D1B1D42B900F8BE84 /* AAOOConverterViewController.h */,
+				DFE47F4E1B1D42B900F8BE84 /* AAOOConverterViewController.m */,
+				DFEE245F1B1EA5D00020BF7B /* AAOOBarChartViewController.h */,
+				DFEE24601B1EA5D00020BF7B /* AAOOBarChartViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DFEE24621B1EA79A0020BF7B /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE246F1B1F30560020BF7B /* JBChartTooltipTipView.h */,
+				DFEE24701B1F30560020BF7B /* JBChartTooltipTipView.m */,
+				DFEE24711B1F30560020BF7B /* JBChartTooltipView.h */,
+				DFEE24721B1F30560020BF7B /* JBChartTooltipView.m */,
+				DFEE246C1B1F2FE00020BF7B /* JBBaseChartViewController.h */,
+				DFEE246D1B1F2FE00020BF7B /* JBBaseChartViewController.m */,
+				DFEE24631B1EA7D10020BF7B /* JBBarChartFooterView.h */,
+				DFEE24641B1EA7D10020BF7B /* JBBarChartFooterView.m */,
+				DFEE24661B1EA7F70020BF7B /* JBChartHeaderView.h */,
+				DFEE24671B1EA7F70020BF7B /* JBChartHeaderView.m */,
+				DFEE24691B1EA8350020BF7B /* JBChartInformationView.h */,
+				DFEE246A1B1EA8350020BF7B /* JBChartInformationView.m */,
+			);
+			name = ChartView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFE47F3D1B1B6A0900F8BE84 /* Build configuration list for PBXNativeTarget "AnArmyOfOnes" */;
 			buildPhases = (
+				787DFB7C39487A00A38FB0E5 /* Check Pods Manifest.lock */,
 				DFE47F161B1B6A0900F8BE84 /* Sources */,
 				DFE47F171B1B6A0900F8BE84 /* Frameworks */,
 				DFE47F181B1B6A0900F8BE84 /* Resources */,
+				74D7E3E11A490B7221B5AA58 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +274,7 @@
 		DFE47F121B1B6A0900F8BE84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AAOO;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Sonia Casas";
 				TargetAttributes = {
@@ -214,14 +326,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74D7E3E11A490B7221B5AA58 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787DFB7C39487A00A38FB0E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFE47F161B1B6A0900F8BE84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE47F261B1B6A0900F8BE84 /* ViewController.m in Sources */,
+				DFEE246B1B1EA8350020BF7B /* JBChartInformationView.m in Sources */,
+				DFE47F4F1B1D42B900F8BE84 /* AAOOConverterViewController.m in Sources */,
+				DFE47F4C1B1D3EA500F8BE84 /* AAOOCurrencyList.m in Sources */,
+				DFEE24731B1F30560020BF7B /* JBChartTooltipTipView.m in Sources */,
+				DFEE24611B1EA5D00020BF7B /* AAOOBarChartViewController.m in Sources */,
+				DFEE24741B1F30560020BF7B /* JBChartTooltipView.m in Sources */,
+				DFEE24681B1EA7F70020BF7B /* JBChartHeaderView.m in Sources */,
 				DFE47F231B1B6A0900F8BE84 /* AppDelegate.m in Sources */,
+				DFEE245A1B1E9CBB0020BF7B /* AAOOTools.m in Sources */,
+				DFEE246E1B1F2FE00020BF7B /* JBBaseChartViewController.m in Sources */,
 				DFE47F201B1B6A0900F8BE84 /* main.m in Sources */,
+				DFEE24651B1EA7D10020BF7B /* JBBarChartFooterView.m in Sources */,
+				DFE47F491B1D3A5D00F8BE84 /* AAOOCurrency.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +384,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE47F3A1B1B6A0900F8BE84 /* AnArmyOfOnesTests.m in Sources */,
+				DFEE245E1B1E9EAD0020BF7B /* AAOOCurrencyListTests.m in Sources */,
+				DFEE245C1B1E9E750020BF7B /* AAOOToolsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +501,7 @@
 		};
 		DFE47F3E1B1B6A0900F8BE84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85371B2FF8A8F6BD85719DA2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnArmyOfOnes/Info.plist;
@@ -355,6 +512,7 @@
 		};
 		DFE47F3F1B1B6A0900F8BE84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD83BC3189AAEEFE5605D8F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnArmyOfOnes/Info.plist;
@@ -416,6 +574,7 @@
 				DFE47F3F1B1B6A0900F8BE84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFE47F401B1B6A0900F8BE84 /* Build configuration list for PBXNativeTarget "AnArmyOfOnesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +583,7 @@
 				DFE47F421B1B6A0900F8BE84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
